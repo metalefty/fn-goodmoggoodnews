@@ -1,6 +1,6 @@
 schema_version: 20180708
-name: .
-version: 0.0.1
+name: goodmoggoodnews
+version: 0.0.46
 runtime: ruby
 build_image: fnproject/ruby:2.7-dev
 run_image: fnproject/ruby:2.7
