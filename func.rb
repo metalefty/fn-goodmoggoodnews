@@ -2,7 +2,10 @@ require 'fdk'
 require 'goodmoggoodnews'
 
 LOG_TAG = "GoodMogGoodNews"
-MONITOR_URI = URI("https://fan.pia.jp/the-pillows/")
+# トップ /the-pillows/ を生存確認に使うと、キャッシュされてトップページの更新が
+# 遅れる可能性があるため更新頻度の低い利用規約ページで生存確認する
+MONITOR_URI = URI("https://fan.pia.jp/the-pillows/page/regulation/")
+ROBOTS_URI = URI("https://fan.pia.jp/robots.txt")
 
 def goodmogrun(context:, input:)
   logger = Logger.new(STDOUT)
