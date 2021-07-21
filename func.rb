@@ -25,6 +25,7 @@ def goodmogrun(context:, input:)
   unless response.success?
     msg = "更新検出失敗: ぴあがメンテナンス中かも"
     logger.error(LOG_TAG) { msg }
+    logger.info(LOG_TAG) { "もぐもぐアラート終了！" }
     return {}
   end
 
