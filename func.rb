@@ -134,7 +134,6 @@ def goodmogrun(context:, input:)
     end
   end
 
-  
   after_ids = twitter.location.dup
   diff = {}
 

@@ -1,5 +1,4 @@
 GEM
-  remote: https://rubygems.org/
   remote: http://icepick.vmeta.jp:8080/
   specs:
     activesupport (6.1.4.1)
@@ -29,7 +28,7 @@ GEM
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
-    goodmoggoodnews (0.3.4)
+    goodmoggoodnews (0.3.5)
       activesupport (~> 6.1.1)
       faraday (~> 1.3.0)
       faraday_middleware (~> 1.0.0)
@@ -88,7 +87,7 @@ PLATFORMS
 
 DEPENDENCIES
   fdk (>= 0.0.24)!
-  goodmoggoodnews (~> 0.3.4)!
+  goodmoggoodnews (~> 0.3.5)!
 
 BUNDLED WITH
    2.2.3
