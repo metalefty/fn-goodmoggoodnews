@@ -1,5 +1,5 @@
 GEM
-  remote: https://www.rubygems.org/
+  remote: https://rubygems.org/
   remote: http://icepick.vmeta.jp:8080/
   specs:
     activesupport (6.1.4.1)
