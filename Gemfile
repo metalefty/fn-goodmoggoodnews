@@ -1,4 +1,4 @@
-source 'https://rubygems.org' do
+source 'http://icepick.vmeta.jp:8080' do
   gem 'fdk', '>= 0.0.24'
-  gem 'goodmoggoodnews', '~> 0.3.4', source: 'http://icepick.vmeta.jp:8080'
+  gem 'goodmoggoodnews', '~> 0.3.4'
 end
